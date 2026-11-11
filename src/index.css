@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Cairo', 'IBM Plex Sans Arabic', system-ui, -apple-system, sans-serif;
+    color: #0f172a;
+    background-color: #f8fafc;
+  }
+}
+
+/* Custom scrollbars for blueprints and engineering tables */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+/* Print Specific Rules for Engineering Reports */
+@media print {
+  @page {
+    margin: 10mm;
+    size: auto;
+  }
+  
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 11pt;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+  
+  .print-only {
+    display: block !important;
+  }
+  
+  .page-break-after {
+    page-break-after: always;
+    break-after: page;
+  }
+  
+  .page-break-inside-avoid {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Force print background colors and borders */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
+
+.print-only {
+  display: none;
+}

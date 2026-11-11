@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="gemGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b47728;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ea580c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="100" fill="#0f2237"/>
+  <polygon points="256,60 450,420 62,420" fill="url(#gemGrad)"/>
+  <polygon points="256,150 390,390 122,390" fill="#ffffff"/>
+  <polygon points="256,220 340,370 172,370" fill="#ea580c"/>
+  <text x="256" y="475" font-family="'Cairo', Arial, sans-serif" font-weight="900" font-size="34" fill="#ffffff" text-anchor="middle" letter-spacing="2">GEM MANAGEMENT</text>
+</svg>

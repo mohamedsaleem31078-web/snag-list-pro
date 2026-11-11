@@ -1,0 +1,668 @@
+{
+  "project": {
+    "projectNameAr": "مشروع المتحف المصري الكبير - الجيزة",
+    "projectNameEn": "GEM Construction Management",
+    "projectSubtitle": "DEMO · TEST DATA ONLY",
+    "drawingTitle": "Piazza + Ticketing Piazza LAYOUT - KEY SECTIONS",
+    "drawingNumber": "GEMIII-PL-CS-LP-BD-DWG-ES-920635",
+    "scale": "1:400 @ A0",
+    "date": "2026-11-10",
+    "client": "وزارة السياحة والآثار - المجلس الأعلى للآثار / الهيئة الهندسية",
+    "consultant": "EHAF Consulting Engineers",
+    "projectManager": "Hill International",
+    "contractor": "BESIX - ORASCOM Joint Venture",
+    "blueprintUrl": "/assets/aistudio/______e3f46fda.jfif",
+    "logoUrl": "/assets/aistudio/1_83716bb5.png"
+  },
+  "disciplines": [
+    {
+      "id": "arch",
+      "code": "ARC",
+      "nameAr": "معماري",
+      "nameEn": "Architectural",
+      "color": "#ea580c",
+      "bgLight": "#ffedd5",
+      "border": "#f97316",
+      "icon": "Building2",
+      "currentSequence": 7
+    },
+    {
+      "id": "civ",
+      "code": "CIV",
+      "nameAr": "مدني",
+      "nameEn": "Civil",
+      "color": "#854d0e",
+      "bgLight": "#fef3c7",
+      "border": "#a16207",
+      "icon": "HardHat",
+      "currentSequence": 2
+    },
+    {
+      "id": "mech",
+      "code": "MEC",
+      "nameAr": "ميكانيكا",
+      "nameEn": "Mechanical",
+      "color": "#0284c7",
+      "bgLight": "#e0f2fe",
+      "border": "#0ea5e9",
+      "icon": "Wrench",
+      "currentSequence": 1
+    },
+    {
+      "id": "elec",
+      "code": "ELE",
+      "nameAr": "كهرباء",
+      "nameEn": "Electrical",
+      "color": "#eab308",
+      "bgLight": "#fef9c3",
+      "border": "#facc15",
+      "icon": "Zap",
+      "currentSequence": 5
+    },
+    {
+      "id": "land",
+      "code": "LAN",
+      "nameAr": "زراعة",
+      "nameEn": "Landscape",
+      "color": "#16a34a",
+      "bgLight": "#dcfce7",
+      "border": "#22c55e",
+      "icon": "Trees",
+      "currentSequence": 5
+    },
+    {
+      "id": "struct",
+      "code": "STR",
+      "nameAr": "إنشائي",
+      "nameEn": "Structural",
+      "color": "#7c3aed",
+      "bgLight": "#ede9fe",
+      "border": "#8b5cf6",
+      "icon": "Layers",
+      "currentSequence": 1
+    }
+  ],
+  "observations": [
+    {
+      "id": "obs-001",
+      "serialNumber": "ARC-DEMO-001",
+      "disciplineId": "arch",
+      "title": "[DEMO / TEST ONLY] Marble tile chipped corner",
+      "description": "لوحظ وجود كسر وتآكل في زاوية بلاطة الرخام التريستا بالمدخل الرئيسي لساحة البلازا بالقرب من المدخل 3. يلزم الفك والاستبدال ببلاطة سليمة ومعتمدة.",
+      "locationZone": "Piazza",
+      "drawingReference": "GEMIII-PL-CS-LP-BD-DWG-ES-920635",
+      "pin": {
+        "x": 55.4,
+        "y": 52.1
+      },
+      "contractor": "Specialist Stone & Marble Subcontractor",
+      "status": "open",
+      "priority": "high",
+      "photos": [
+        {
+          "id": "p-01",
+          "originalUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22600%22%20height%3D%22400%22%20viewBox%3D%220%200%20600%20400%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2220%22%20height%3D%2220%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M%2020%200%20L%200%200%200%2020%22%20fill%3D%22none%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%220.8%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22600%22%20height%3D%22400%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22600%22%20height%3D%22400%22%20fill%3D%22url(%23grid)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22550%22%20height%3D%22350%22%20rx%3D%2210%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22300%22%20cy%3D%22165%22%20r%3D%2255%22%20fill%3D%22none%22%20stroke%3D%22%23ea580c%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%226%204%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M%20300%2080%20L%20300%20250%20M%20215%20165%20L%20385%20165%22%20stroke%3D%22%23ea580c%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.4%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2245%22%20y%3D%2245%22%20width%3D%22150%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ea580c%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22120%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-weight%3D%22bold%22%20font-size%3D%2213%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%3EARC-DEMO-001%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22300%22%20y%3D%22265%22%20font-family%3D%22'Cairo'%2C%20Arial%2C%20sans-serif%22%20font-weight%3D%22bold%22%20font-size%3D%2216%22%20fill%3D%22%230f172a%22%20text-anchor%3D%22middle%22%3EMarble%20tile%20chipped%20corner%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22300%22%20y%3D%22295%22%20font-family%3D%22'Cairo'%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2364748b%22%20text-anchor%3D%22middle%22%3E%D8%AA%D9%88%D8%AB%D9%8A%D9%82%20%D8%A7%D9%84%D9%85%D9%88%D9%82%D8%B9%20%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%A7%D9%86%D9%8A%20-%20%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D9%81%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22175%22%20y%3D%22315%22%20width%3D%22250%22%20height%3D%2225%22%20rx%3D%225%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22300%22%20y%3D%22332%22%20font-family%3D%22monospace%22%20font-size%3D%2211%22%20fill%3D%22%230284c7%22%20text-anchor%3D%22middle%22%3EOFFICIAL%20STAMP%3A%20GEM-SITE-INSPECTED%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "caption": "كسر واضح في الحافة الرخامية 15 مم يتطلب استبدال البلاطة كاملة",
+          "uploadedAt": "2026-11-08 09:30"
+        }
+      ],
+      "createdAt": "2026-11-08",
+      "dueDate": "2026-11-15",
+      "inspectorName": "م. سامح إبراهيم (استشاري إيهاب EHAF)",
+      "inspectorNotes": "عدم القبول بأي معالجة إيبوكسي سطحية، يلزم التغيير الكامل للبلاطة.",
+      "contractorResponse": "تم توفير بلاطة مطابقة من محجر الجلالة وسيتم التركيب خلال 48 ساعة.",
+      "ageDays": 2
+    },
+    {
+      "id": "obs-002",
+      "serialNumber": "ARC-DEMO-002",
+      "disciplineId": "arch",
+      "title": "[DEMO / TEST ONLY] Marble joints have inconsistent width",
+      "description": "تفاوت في اتساع العراميس وفواصل التمدد بين بلاطات الرخام من 2 مم إلى 7 مم بصورة غير مطابقة للمواصفات المعمارية المعتمدة.",
+      "locationZone": "Piazza",
+      "drawingReference": "GEMIII-PL-CS-LP-BD-DWG-ES-920635",
+      "pin": {
+        "x": 48.2,
+        "y": 44.5
+      },
+      "contractor": "BESIX - ORASCOM JV",
+      "status": "in_progress",
+      "priority": "medium",
+      "photos": [
+        {
+          "id": "p-02",
+          "originalUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22600%22%20height%3D%22400%22%20viewBox%3D%220%200%20600%20400%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2220%22%20height%3D%2220%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M%2020%200%20L%200%200%200%2020%22%20fill%3D%22none%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%220.8%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22600%22%20height%3D%22400%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22600%22%20height%3D%22400%22%20fill%3D%22url(%23grid)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22550%22%20height%3D%22350%22%20rx%3D%2210%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22300%22%20cy%3D%22165%22%20r%3D%2255%22%20fill%3D%22none%22%20stroke%3D%22%23ea580c%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%226%204%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M%20300%2080%20L%20300%20250%20M%20215%20165%20L%20385%20165%22%20stroke%3D%22%23ea580c%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.4%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2245%22%20y%3D%2245%22%20width%3D%22150%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ea580c%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22120%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-weight%3D%22bold%22%20font-size%3D%2213%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%3EARC-DEMO-002%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22300%22%20y%3D%22265%22%20font-family%3D%22'Cairo'%2C%20Arial%2C%20sans-serif%22%20font-weight%3D%22bold%22%20font-size%3D%2216%22%20fill%3D%22%230f172a%22%20text-anchor%3D%22middle%22%3EMarble%20joints%20inconsistent%20width%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22300%22%20y%3D%22295%22%20font-family%3D%22'Cairo'%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2364748b%22%20text-anchor%3D%22middle%22%3E%D8%AA%D9%88%D8%AB%D9%8A%D9%82%20%D8%A7%D9%84%D9%85%D9%88%D9%82%D8%B9%20%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%A7%D9%86%D9%8A%20-%20%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D9%81%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22175%22%20y%3D%22315%22%20width%3D%22250%22%20height%3D%2225%22%20rx%3D%225%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22300%22%20y%3D%22332%22%20font-family%3D%22monospace%22%20font-size%3D%2211%22%20fill%3D%22%230284c7%22%20text-anchor%3D%22middle%22%3EOFFICIAL%20STAMP%3A%20GEM-SITE-INSPECTED%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "caption": "اختلاف واضح في مقاس الفواصل على امتداد خط الرؤية",
+          "uploadedAt": "2026-11-07 11:20"
+        }
+      ],
+      "createdAt": "2026-11-07",
+      "dueDate": "2026-11-14",
+      "inspectorName": "م. أحمد الشريف (استشاري إيهاب EHAF)",
+      "contractorResponse": "جاري إعادة ضبط وتربيع الفواصل واستخدام كلبسات توحيد المقاس.",
+      "ageDays": 3
+    },
+    {
+      "id": "obs-003",
+      "serialNumber": "ARC-DEMO-003",
+      "disciplineId": "arch",
+      "title": "[DEMO / TEST ONLY] Uneven finish levels between marble tiles",
+      "description": "عدم استواء مناسيب التشطيب ووجود بروزات بين البلاطات المتجاورة تزيد عن 3 مم تعيق حركة المشاة.",
+      "locationZone": "Piazza",
+      "drawingReference": "GEMIII-PL-CS-LP-BD-DWG-ES-920635",
+      "pin": {
+        "x": 38,
+        "y": 60.3
+      },
+      "contractor": "Specialist Stone & Marble Subcontractor",
+      "status": "verified",
+      "priority": "high",
+      "photos": [
+        {
+          "id": "p-03",
+          "originalUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22600%22%20height%3D%22400%22%20viewBox%3D%220%200%20600%20400%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2220%22%20height%3D%2220%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M%2020%200%20L%200%200%200%2020%22%20fill%3D%22none%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%220.8%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22600%22%20height%3D%22400%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22600%22%20height%3D%22400%22%20fill%3D%22url(%23grid)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22550%22%20height%3D%22350%22%20rx%3D%2210%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22300%22%20cy%3D%22165%22%20r%3D%2255%22%20fill%3D%22none%22%20stroke%3D%22%230d9488%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%226%204%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M%20300%2080%20L%20300%20250%20M%20215%20165%20L%20385%20165%22%20stroke%3D%22%230d9488%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.4%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2245%22%20y%3D%2245%22%20width%3D%22150%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d9488%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22120%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-weight%3D%22bold%22%20font-size%3D%2213%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%3EARC-DEMO-003%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22300%22%20y%3D%22265%22%20font-family%3D%22'Cairo'%2C%20Arial%2C%20sans-serif%22%20font-weight%3D%22bold%22%20font-size%3D%2216%22%20fill%3D%22%230f172a%22%20text-anchor%3D%22middle%22%3EUneven%20finish%20levels%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22300%22%20y%3D%22295%22%20font-family%3D%22'Cairo'%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2364748b%22%20text-anchor%3D%22middle%22%3E%D8%AA%D9%88%D8%AB%D9%8A%D9%82%20%D8%A7%D9%84%D9%85%D9%88%D9%82%D8%B9%20%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%A7%D9%86%D9%8A%20-%20%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D9%81%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22175%22%20y%3D%22315%22%20width%3D%22250%22%20height%3D%2225%22%20rx%3D%225%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22300%22%20y%3D%22332%22%20font-family%3D%22monospace%22%20font-size%3D%2211%22%20fill%3D%22%230284c7%22%20text-anchor%3D%22middle%22%3EOFFICIAL%20STAMP%3A%20GEM-SITE-INSPECTED%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "caption": "تم جلي وضبط المناسيب وتم التحقق منها بميزان القدة 3 متر",
+          "uploadedAt": "2026-11-05 14:00"
+        }
+      ],
+      "createdAt": "2026-11-05",
+      "dueDate": "2026-11-12",
+      "inspectorName": "م. طارق كمال (EHAF)",
+      "inspectorNotes": "تمت المعاينة والتحقق والمطابقة مقبولة فنياً.",
+      "contractorResponse": "تم جلي السطح وتلميعه ومعالجة الفروقات.",
+      "ageDays": 5
+    },
+    {
+      "id": "obs-004",
+      "serialNumber": "ARC-DEMO-004",
+      "disciplineId": "arch",
+      "title": "[DEMO / TEST ONLY] Visible staining on newly installed marble",
+      "description": "ظهور بقع صدأ ورطوبة وتغير لون البلاطات ناتج عن تسرب مياه غير معالجة أسفل المونة.",
+      "locationZone": "Piazza",
+      "drawingReference": "GEMIII-PL-CS-LP-BD-DWG-ES-920635",
+      "pin": {
+        "x": 62.1,
+        "y": 39.4
+      },
+      "contractor": "Orascom Construction (Finishes)",
+      "status": "reopened",
+      "priority": "critical",
+      "photos": [
+        {
+          "id": "p-04",
+          "originalUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22600%22%20height%3D%22400%22%20viewBox%3D%220%200%20600%20400%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2220%22%20height%3D%2220%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M%2020%200%20L%200%200%200%2020%22%20fill%3D%22none%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%220.8%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22600%22%20height%3D%22400%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22600%22%20height%3D%22400%22%20fill%3D%22url(%23grid)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22550%22%20height%3D%22350%22%20rx%3D%2210%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22300%22%20cy%3D%22165%22%20r%3D%2255%22%20fill%3D%22none%22%20stroke%3D%22%238b5cf6%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%226%204%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M%20300%2080%20L%20300%20250%20M%20215%20165%20L%20385%20165%22%20stroke%3D%22%238b5cf6%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.4%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2245%22%20y%3D%2245%22%20width%3D%22150%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%238b5cf6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22120%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-weight%3D%22bold%22%20font-size%3D%2213%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%3EARC-DEMO-004%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22300%22%20y%3D%22265%22%20font-family%3D%22'Cairo'%2C%20Arial%2C%20sans-serif%22%20font-weight%3D%22bold%22%20font-size%3D%2216%22%20fill%3D%22%230f172a%22%20text-anchor%3D%22middle%22%3EVisible%20staining%20on%20marble%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22300%22%20y%3D%22295%22%20font-family%3D%22'Cairo'%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2364748b%22%20text-anchor%3D%22middle%22%3E%D8%AA%D9%88%D8%AB%D9%8A%D9%82%20%D8%A7%D9%84%D9%85%D9%88%D9%82%D8%B9%20%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%A7%D9%86%D9%8A%20-%20%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D9%81%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22175%22%20y%3D%22315%22%20width%3D%22250%22%20height%3D%2225%22%20rx%3D%225%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22300%22%20y%3D%22332%22%20font-family%3D%22monospace%22%20font-size%3D%2211%22%20fill%3D%22%230284c7%22%20text-anchor%3D%22middle%22%3EOFFICIAL%20STAMP%3A%20GEM-SITE-INSPECTED%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "caption": "البقع عادت للظهور بعد التنظيف السطحي مما يؤكد وجود مصدر تسريب دفين",
+          "uploadedAt": "2026-11-04 16:30"
+        }
+      ],
+      "createdAt": "2026-11-04",
+      "dueDate": "2026-11-10",
+      "inspectorName": "م. سامح إبراهيم (EHAF)",
+      "inspectorNotes": "أُعيد فتح الملاحظة لعدم معالجة أصل المشكلة وهو تسريب مياه الصرف التحتي.",
+      "contractorResponse": "سيتم فك البلاطات وكشف طبقة العزل وإعادة فحصها هيدروستاتيكياً.",
+      "ageDays": 6
+    },
+    {
+      "id": "obs-005",
+      "serialNumber": "ARC-DEMO-005",
+      "disciplineId": "arch",
+      "title": "[DEMO / TEST ONLY] Granite skirting joint sealant gap",
+      "description": "عدم اكتمال حقن السيليكون الإنشائي المقاوم للعوامل الجوية في الوزرات الرخامية المحيطة بالأعمدة.",
+      "locationZone": "Piazza",
+      "drawingReference": "GEMIII-PL-CS-LP-BD-DWG-ES-920635",
+      "pin": {
+        "x": 30.5,
+        "y": 55
+      },
+      "contractor": "Specialist Stone & Marble Subcontractor",
+      "status": "closed",
+      "priority": "low",
+      "photos": [
+        {
+          "id": "p-05",
+          "originalUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22600%22%20height%3D%22400%22%20viewBox%3D%220%200%20600%20400%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2220%22%20height%3D%2220%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M%2020%200%20L%200%200%200%2020%22%20fill%3D%22none%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%220.8%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22600%22%20height%3D%22400%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22600%22%20height%3D%22400%22%20fill%3D%22url(%23grid)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22550%22%20height%3D%22350%22%20rx%3D%2210%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22300%22%20cy%3D%22165%22%20r%3D%2255%22%20fill%3D%22none%22%20stroke%3D%22%2316a34a%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%226%204%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M%20300%2080%20L%20300%20250%20M%20215%20165%20L%20385%20165%22%20stroke%3D%22%2316a34a%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.4%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2245%22%20y%3D%2245%22%20width%3D%22150%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%2316a34a%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22120%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-weight%3D%22bold%22%20font-size%3D%2213%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%3EARC-DEMO-005%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22300%22%20y%3D%22265%22%20font-family%3D%22'Cairo'%2C%20Arial%2C%20sans-serif%22%20font-weight%3D%22bold%22%20font-size%3D%2216%22%20fill%3D%22%230f172a%22%20text-anchor%3D%22middle%22%3ESkirting%20joint%20sealant%20gap%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22300%22%20y%3D%22295%22%20font-family%3D%22'Cairo'%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20fill%3D%22%2364748b%22%20text-anchor%3D%22middle%22%3E%D8%AA%D9%88%D8%AB%D9%8A%D9%82%20%D8%A7%D9%84%D9%85%D9%88%D9%82%D8%B9%20%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%A7%D9%86%D9%8A%20-%20%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D9%81%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22175%22%20y%3D%22315%22%20width%3D%22250%22%20height%3D%2225%22%20rx%3D%225%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22300%22%20y%3D%22332%22%20font-family%3D%22monospace%22%20font-size%3D%2211%22%20fill%3D%22%230284c7%22%20text-anchor%3D%22middle%22%3EOFFICIAL%20STAMP%3A%20GEM-SITE-INSPECTED%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "caption": "تم الانتهاء من الحقن بمادة SikaHyflex المعتمدة واعتمدها الاستشاري",
+          "uploadedAt": "2026-10-28 10:00"
+        }
+      ],
+      "createdAt": "2026-10-28",
+      "dueDate": "2026-11-02",
+      "closedAt": "2026-11-01",
+      "inspectorName": "م. أحمد الشريف (EHAF)",
+      "inspectorNotes": "تم الإغلاق بعد الفحص النهائي واعتماد الجودة.",
+      "ageDays": 13
+    },
+    {
+      "id": "obs-006",
+      "serialNumber": "ARC-DEMO-006",
+      "disciplineId": "arch",
+      "title": "[DEMO / TEST ONLY] Anti-slip grooving missing on entrance ramps",
+      "description": "عدم تنفيذ حزوز مانع الانزلاق (Grooving) على منحدرات ذوي الهمم عند البوابة الجنوبية.",
+      "locationZone": "Ticketing Piazza D13",
+      "drawingReference": "GEMIII-PL-CS-LP-BD-DWG-ES-920635",
+      "pin": {
+        "x": 72.3,
+        "y": 48
+      },
+      "contractor": "BESIX - ORASCOM JV",
+      "status": "disputed",
+      "priority": "high",
+      "photos": [],
+      "createdAt": "2026-11-03",
+      "dueDate": "2026-11-09",
+      "inspectorName": "م. طارق كمال (EHAF)",
+      "inspectorNotes": "المقاول يدعي أن الحزوز غير مدرجة في مقايسة الأعمال الأصلية ولكنها شرط بكود الإتاحة.",
+      "contractorResponse": "تم تقديم طلب تغيير (Variation Order) للمالك للدراسة.",
+      "ageDays": 7
+    },
+    {
+      "id": "obs-007",
+      "serialNumber": "ARC-DEMO-007",
+      "disciplineId": "arch",
+      "title": "[DEMO / TEST ONLY] Expansion joint cover plate loose",
+      "description": "ارتخاء مسامير التثبيت لغطاء فاصل التمدد المعدني الفاصل بين مبنى التذاكر والساحة.",
+      "locationZone": "Ticketing Piazza D13",
+      "drawingReference": "GEMIII-PL-CS-LP-BD-DWG-ES-920635",
+      "pin": {
+        "x": 70,
+        "y": 56.5
+      },
+      "contractor": "BESIX - ORASCOM JV",
+      "status": "open",
+      "priority": "medium",
+      "photos": [],
+      "createdAt": "2026-11-06",
+      "dueDate": "2026-11-13",
+      "inspectorName": "م. سامح إبراهيم (EHAF)",
+      "ageDays": 4
+    },
+    {
+      "id": "obs-008",
+      "serialNumber": "CIV-DEMO-001",
+      "disciplineId": "civ",
+      "title": "[DEMO / TEST ONLY] Settlement in paver sub-base near MH-14",
+      "description": "هبوط موضعي في طبقة الأساس الحبيبي أسفل بلاطات الإنترلوك حول مطبق الصرف 14.",
+      "locationZone": "Main Esplanade",
+      "drawingReference": "GEMIII-PL-CS-LP-BD-DWG-ES-920635",
+      "pin": {
+        "x": 44.8,
+        "y": 72.1
+      },
+      "contractor": "BESIX - ORASCOM JV",
+      "status": "open",
+      "priority": "critical",
+      "photos": [],
+      "createdAt": "2026-11-01",
+      "dueDate": "2026-11-08",
+      "inspectorName": "م. كريم بدر (EHAF)",
+      "ageDays": 9
+    },
+    {
+      "id": "obs-009",
+      "serialNumber": "CIV-DEMO-002",
+      "disciplineId": "civ",
+      "title": "[DEMO / TEST ONLY] Curbstone hairline cracking at bus terminal",
+      "description": "شروخ شعرية في عدد 6 بردورات خرسانية مسبقة الصب نتيجة صدمة معدات الرصف.",
+      "locationZone": "Main Esplanade",
+      "drawingReference": "GEMIII-PL-CS-LP-BD-DWG-ES-920635",
+      "pin": {
+        "x": 50.5,
+        "y": 78.4
+      },
+      "contractor": "BESIX - ORASCOM JV",
+      "status": "open",
+      "priority": "medium",
+      "photos": [],
+      "createdAt": "2026-11-02",
+      "dueDate": "2026-11-10",
+      "inspectorName": "م. كريم بدر (EHAF)",
+      "ageDays": 8
+    },
+    {
+      "id": "obs-010",
+      "serialNumber": "MEC-DEMO-001",
+      "disciplineId": "mech",
+      "title": "[DEMO / TEST ONLY] Fountain WF-P19A manifold flange dripping",
+      "description": "تنقيط وتسريب مياه خفيف عند شفة مجمع النوافير التفاعلية WF-P19A.",
+      "locationZone": "Fountain WF-P19A",
+      "drawingReference": "GEMIII-PL-CS-LP-BD-DWG-ES-920635",
+      "pin": {
+        "x": 23.5,
+        "y": 32.6
+      },
+      "contractor": "MEP Consortium (Mechanical/Electrical)",
+      "status": "in_progress",
+      "priority": "high",
+      "photos": [],
+      "createdAt": "2026-11-04",
+      "dueDate": "2026-11-11",
+      "inspectorName": "م. إبراهيم عادل (EHAF)",
+      "ageDays": 6
+    },
+    {
+      "id": "obs-011",
+      "serialNumber": "ELE-DEMO-001",
+      "disciplineId": "elec",
+      "title": "[DEMO / TEST ONLY] Bollard lighting cable conduit exposed",
+      "description": "ماسورة كابل الإنارة الأرضية للأعمدة الديكورية بارزة فوق سطح التربة الزراعية.",
+      "locationZone": "Piazza",
+      "drawingReference": "GEMIII-PL-CS-LP-BD-DWG-ES-920635",
+      "pin": {
+        "x": 67.2,
+        "y": 35
+      },
+      "contractor": "MEP Consortium (Mechanical/Electrical)",
+      "status": "open",
+      "priority": "critical",
+      "photos": [],
+      "createdAt": "2026-11-05",
+      "dueDate": "2026-11-08",
+      "inspectorName": "م. هشام فهمي (EHAF)",
+      "ageDays": 5
+    },
+    {
+      "id": "obs-012",
+      "serialNumber": "ELE-DEMO-002",
+      "disciplineId": "elec",
+      "title": "[DEMO / TEST ONLY] In-ground uplight fixture lens condensation",
+      "description": "تكون بخار ماء وتكثف داخل عدسة الكشاف الغاطس أسفل المسلة المعلقة.",
+      "locationZone": "Obelisk Stone Finish Area",
+      "drawingReference": "GEMIII-PL-CS-LP-BD-DWG-ES-920635",
+      "pin": {
+        "x": 31,
+        "y": 22
+      },
+      "contractor": "MEP Consortium (Mechanical/Electrical)",
+      "status": "open",
+      "priority": "medium",
+      "photos": [],
+      "createdAt": "2026-11-06",
+      "dueDate": "2026-11-14",
+      "inspectorName": "م. هشام فهمي (EHAF)",
+      "ageDays": 4
+    },
+    {
+      "id": "obs-013",
+      "serialNumber": "ELE-DEMO-003",
+      "disciplineId": "elec",
+      "title": "[DEMO / TEST ONLY] Distribution panel L-04 labeling missing",
+      "description": "عدم وجود بطاقات التعريف والكود الهندسي على قواطع اللوحة الكهربائية L-04.",
+      "locationZone": "Ticketing Piazza D13",
+      "drawingReference": "GEMIII-PL-CS-LP-BD-DWG-ES-920635",
+      "pin": {
+        "x": 74,
+        "y": 52
+      },
+      "contractor": "MEP Consortium (Mechanical/Electrical)",
+      "status": "in_progress",
+      "priority": "low",
+      "photos": [],
+      "createdAt": "2026-11-07",
+      "dueDate": "2026-11-16",
+      "inspectorName": "م. هشام فهمي (EHAF)",
+      "ageDays": 3
+    },
+    {
+      "id": "obs-014",
+      "serialNumber": "ELE-DEMO-004",
+      "disciplineId": "elec",
+      "title": "[DEMO / TEST ONLY] LED ribbon warm-white color mismatch (3000K vs 4000K)",
+      "description": "اختلاف درجة حرارة اللون في شريط الليد المخفي بين القطاعين A و B.",
+      "locationZone": "Piazza",
+      "drawingReference": "GEMIII-PL-CS-LP-BD-DWG-ES-920635",
+      "pin": {
+        "x": 42,
+        "y": 49
+      },
+      "contractor": "MEP Consortium (Mechanical/Electrical)",
+      "status": "verified",
+      "priority": "medium",
+      "photos": [],
+      "createdAt": "2026-11-03",
+      "dueDate": "2026-11-10",
+      "inspectorName": "م. هشام فهمي (EHAF)",
+      "ageDays": 7
+    },
+    {
+      "id": "obs-015",
+      "serialNumber": "ELE-DEMO-005",
+      "disciplineId": "elec",
+      "title": "[DEMO / TEST ONLY] Earthing rod pit cover damaged by forklift",
+      "description": "تلف غطاء غرفة التأريض الأرضي نتيجة مرور الرافعة الشوكية.",
+      "locationZone": "Logistics Yard South",
+      "drawingReference": "GEMIII-PL-CS-LP-BD-DWG-ES-920635",
+      "pin": {
+        "x": 58,
+        "y": 85
+      },
+      "contractor": "MEP Consortium (Mechanical/Electrical)",
+      "status": "closed",
+      "priority": "high",
+      "photos": [],
+      "createdAt": "2026-10-25",
+      "dueDate": "2026-11-01",
+      "closedAt": "2026-10-31",
+      "inspectorName": "م. هشام فهمي (EHAF)",
+      "ageDays": 16
+    },
+    {
+      "id": "obs-016",
+      "serialNumber": "LAN-DEMO-001",
+      "disciplineId": "land",
+      "title": "[DEMO / TEST ONLY] Date palm T16 guy wire tension slack",
+      "description": "ارتخاء أسلاك الشد المجلفنة لتدعيم أشجار النخيل في قطاع T16 مع وجود ميل طفيف.",
+      "locationZone": "Palm Trees Sector T16",
+      "drawingReference": "GEMIII-PL-CS-LP-BD-DWG-ES-920635",
+      "pin": {
+        "x": 62.8,
+        "y": 65.4
+      },
+      "contractor": "Landscape Specialist Contractor",
+      "status": "open",
+      "priority": "medium",
+      "photos": [],
+      "createdAt": "2026-11-06",
+      "dueDate": "2026-11-13",
+      "inspectorName": "د. محمود حسن (EHAF)",
+      "ageDays": 4
+    },
+    {
+      "id": "obs-017",
+      "serialNumber": "LAN-DEMO-002",
+      "disciplineId": "land",
+      "title": "[DEMO / TEST ONLY] Drip irrigation line punctured near planter 12",
+      "description": "ثقب في خرطوم الري بالتنقيط مما تسبب في بركة مياه صغيرة بجوار الحوض الرخامي.",
+      "locationZone": "Piazza",
+      "drawingReference": "GEMIII-PL-CS-LP-BD-DWG-ES-920635",
+      "pin": {
+        "x": 51,
+        "y": 58
+      },
+      "contractor": "Landscape Specialist Contractor",
+      "status": "open",
+      "priority": "high",
+      "photos": [],
+      "createdAt": "2026-11-07",
+      "dueDate": "2026-11-11",
+      "inspectorName": "د. محمود حسن (EHAF)",
+      "ageDays": 3
+    },
+    {
+      "id": "obs-018",
+      "serialNumber": "LAN-DEMO-003",
+      "disciplineId": "land",
+      "title": "[DEMO / TEST ONLY] Shrub replacement required due to wilting",
+      "description": "موت وجفاف عدد 15 شجيرة بيتونيا موردة حديثاً نتيجة انقطاع مياه الري.",
+      "locationZone": "Piazza",
+      "drawingReference": "GEMIII-PL-CS-LP-BD-DWG-ES-920635",
+      "pin": {
+        "x": 45,
+        "y": 38
+      },
+      "contractor": "Landscape Specialist Contractor",
+      "status": "in_progress",
+      "priority": "low",
+      "photos": [],
+      "createdAt": "2026-11-04",
+      "dueDate": "2026-11-15",
+      "inspectorName": "د. محمود حسن (EHAF)",
+      "ageDays": 6
+    },
+    {
+      "id": "obs-019",
+      "serialNumber": "LAN-DEMO-004",
+      "disciplineId": "land",
+      "title": "[DEMO / TEST ONLY] Grass sodding uneven seam alignment",
+      "description": "ظهور فواصل غير مدموكة جيداً بين لفائف النجيل الطبيعي المزروع بالحديقة.",
+      "locationZone": "Palm Trees Sector T16",
+      "drawingReference": "GEMIII-PL-CS-LP-BD-DWG-ES-920635",
+      "pin": {
+        "x": 66,
+        "y": 69
+      },
+      "contractor": "Landscape Specialist Contractor",
+      "status": "verified",
+      "priority": "low",
+      "photos": [],
+      "createdAt": "2026-11-02",
+      "dueDate": "2026-11-09",
+      "inspectorName": "د. محمود حسن (EHAF)",
+      "ageDays": 8
+    },
+    {
+      "id": "obs-020",
+      "serialNumber": "LAN-DEMO-005",
+      "disciplineId": "land",
+      "title": "[DEMO / TEST ONLY] Tree root barrier installed to approved spec",
+      "description": "تم فحص واعتماد حواجز الجذور لحماية كابلات الاتصالات والأنابيب.",
+      "locationZone": "Piazza",
+      "drawingReference": "GEMIII-PL-CS-LP-BD-DWG-ES-920635",
+      "pin": {
+        "x": 35,
+        "y": 46
+      },
+      "contractor": "Landscape Specialist Contractor",
+      "status": "closed",
+      "priority": "low",
+      "photos": [],
+      "createdAt": "2026-10-22",
+      "dueDate": "2026-10-30",
+      "closedAt": "2026-10-29",
+      "inspectorName": "د. محمود حسن (EHAF)",
+      "ageDays": 19
+    },
+    {
+      "id": "obs-021",
+      "serialNumber": "STR-DEMO-001",
+      "disciplineId": "struct",
+      "title": "[DEMO / TEST ONLY] Canopy steel bracket bolt torque verification",
+      "description": "مطلوب تقديم محضر فحص عزم ربط المسامير عالي المقاومة للمظلة الفولاذية.",
+      "locationZone": "Gate 1 Main Canopy",
+      "drawingReference": "GEMIII-PL-CS-LP-BD-DWG-ES-920635",
+      "pin": {
+        "x": 32.4,
+        "y": 31.8
+      },
+      "contractor": "BESIX - ORASCOM JV",
+      "status": "reopened",
+      "priority": "critical",
+      "photos": [],
+      "createdAt": "2026-11-01",
+      "dueDate": "2026-11-07",
+      "inspectorName": "م. طارق كمال (EHAF)",
+      "ageDays": 9
+    }
+  ],
+  "planningActivities": [
+    {
+      "id": "act-01",
+      "code": "ACT-ARC-01",
+      "nameAr": "توريد وتركيب بلاطات رخام ساحة التذاكر والبلازا D13",
+      "nameEn": "Piazza & Ticketing Marble Flooring Installation",
+      "disciplineId": "arch",
+      "plannedStartDate": "2026-10-01",
+      "plannedEndDate": "2026-11-30",
+      "actualProgress": 85,
+      "status": "on_track",
+      "contractor": "Specialist Stone & Marble Subcontractor",
+      "zone": "Piazza"
+    },
+    {
+      "id": "act-02",
+      "code": "ACT-MEC-01",
+      "nameAr": "اختبارات التشغيل وضغط شبكات النوافير التفاعلية WF-P19A",
+      "nameEn": "WF-P19A Water Feature Hydrostatic Testing & Commissioning",
+      "disciplineId": "mech",
+      "plannedStartDate": "2026-10-15",
+      "plannedEndDate": "2026-11-20",
+      "actualProgress": 60,
+      "status": "delayed",
+      "contractor": "MEP Consortium",
+      "zone": "Fountain WF-P19A"
+    },
+    {
+      "id": "act-03",
+      "code": "ACT-ELE-01",
+      "nameAr": "توصيل وتجربة كشافات الإنارة الديكورية للممشى الرئيسي",
+      "nameEn": "Main Esplanade Decorative Lighting Power & Control",
+      "disciplineId": "elec",
+      "plannedStartDate": "2026-10-20",
+      "plannedEndDate": "2026-11-25",
+      "actualProgress": 70,
+      "status": "on_track",
+      "contractor": "MEP Consortium",
+      "zone": "Main Esplanade"
+    },
+    {
+      "id": "act-04",
+      "code": "ACT-LAN-01",
+      "nameAr": "زراعة أشجار النخيل والمسطحات الخضراء بالساحة الشرقية T16",
+      "nameEn": "East Plaza T16 Palm Trees & Turf Planting",
+      "disciplineId": "land",
+      "plannedStartDate": "2026-10-10",
+      "plannedEndDate": "2026-11-18",
+      "actualProgress": 90,
+      "status": "completed",
+      "contractor": "Landscape Specialist Contractor",
+      "zone": "Palm Trees Sector T16"
+    },
+    {
+      "id": "act-05",
+      "code": "ACT-STR-01",
+      "nameAr": "معاينة واعتماد الهيكل المعدني لمظلة بوابات الدخول 1",
+      "nameEn": "Entrance Gate 1 Steel Canopy Final Sign-off",
+      "disciplineId": "struct",
+      "plannedStartDate": "2026-11-01",
+      "plannedEndDate": "2026-11-15",
+      "actualProgress": 45,
+      "status": "delayed",
+      "contractor": "BESIX - ORASCOM JV",
+      "zone": "Gate 1 Main Canopy"
+    }
+  ],
+  "systemSettings": {
+    "appName": "GEM Construction Management System",
+    "theme": "light",
+    "autoSaveIntervalMs": 5000,
+    "enableSoundAlerts": true,
+    "customLocations": [
+      "Piazza",
+      "Ticketing Piazza D13",
+      "Main Esplanade",
+      "Fountain WF-P19A",
+      "Fountain WF-P19B",
+      "Obelisk Stone Finish Area",
+      "Gate 1 Main Canopy",
+      "Palm Trees Sector T16",
+      "Logistics Yard South"
+    ],
+    "customContractors": [
+      "BESIX - ORASCOM JV",
+      "Orascom Construction (Finishes)",
+      "Specialist Stone & Marble Subcontractor",
+      "MEP Consortium (Mechanical/Electrical)",
+      "Landscape Specialist Contractor",
+      "Façade & Cladding Subcontractor"
+    ]
+  }
+}
